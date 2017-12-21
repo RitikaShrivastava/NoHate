@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "No More Bullying",
+  "description": "This extension monitor's the user's language and warns them before they post hurtful messages online.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
